@@ -115,20 +115,26 @@
         class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between"
       >
         <!-- Logo -->
-        <a href="#" class="flex items-center gap-3 group">
+        <a href="#" class="flex items-center gap-2.5 sm:gap-3 group">
+          <!-- Avatar Icon -->
           <div
-            class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-600 to-indigo-600 flex items-center justify-center font-bold text-white shadow-lg group-hover:scale-105 transition-transform"
+            class="w-8 h-8 sm:w-10 sm:h-10 rounded-lg sm:rounded-xl bg-gradient-to-tr from-brand-600 to-indigo-600 flex items-center justify-center text-sm sm:text-base font-bold text-white shadow-lg group-hover:scale-105 transition-transform shrink-0"
           >
             AR
           </div>
-          <div>
+
+          <!-- Text Container -->
+          <div class="min-w-0">
             <span
-              class="font-bold text-lg tracking-tight text-white group-hover:text-brand-400 transition-colors"
-              >Ashikur Rahman</span
+              class="font-bold text-base sm:text-lg tracking-tight text-white group-hover:text-brand-400 transition-colors block truncate"
             >
-            <span class="text-xs text-brand-400 font-mono block -mt-1"
-              >ML & Full-Stack Eng.</span
+              Ashikur Rahman
+            </span>
+            <span
+              class="text-[10px] sm:text-xs text-brand-400 font-mono block -mt-0.5 sm:-mt-1 truncate"
             >
+              ML & Full-Stack Eng.
+            </span>
           </div>
         </a>
 
@@ -320,7 +326,6 @@
                     <p class="text-xs text-brand-400 font-mono">
                       Senior AI & Software Dev
                     </p>
-
                   </div>
                 </div>
 
@@ -993,7 +998,10 @@
               </div>
               <div>
                 <div class="flex justify-between text-xs font-mono mb-1">
-                  <span class="text-slate-300">Cloud & Deployment (Vercel, Render, Railway, Firebase)</span>
+                  <span class="text-slate-300"
+                    >Cloud & Deployment (Vercel, Render, Railway,
+                    Firebase)</span
+                  >
                   <span class="text-emerald-400">82%</span>
                 </div>
                 <div
@@ -1124,7 +1132,7 @@
         <h2
           class="text-xs font-mono text-teal-400 tracking-widest uppercase mb-2"
         >
-           //  Interactive Inference
+          // Interactive Inference
         </h2>
         <h3 class="text-2xl font-bold text-white">
           Live AI Model Testing Playground
